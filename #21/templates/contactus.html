@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel ="stylesheet" href = "{{ url_for("static" , filename="css/style.css") }}">
+
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                <span><img src="static/images/logo.png" width= "50" height="50" />  </span>
+                <h1 class = "logo">Contact Us</h1>
+                <nav>
+                    <li><a href = "{{ url_for("home") }}">Home</a></li>
+                    <li><a href = "{{ url_for("aboutus") }}">About Us</a></li>
+                    <li><a href = "{{ url_for("contactus") }}">Contact Us</a></li>
+                    <li><a href = "{{ url_for("friends") }}">Friends</a></li>
+                    <li><a href = "{{ url_for("login") }}">Login</a></li>
+                    <li><a href = "{{ url_for("registration") }}">Registration</a></li>
+                </nav>
+            </div>
+        </header>
+        <h1>Contact Us</h1>
+        <p>Email: cite@phinmaed.com</p>
+
+    </body>
+</html>
