@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Gas</title>
+        <link rel="stylesheet" href="{{ url_for("static" , filename="css/style.css" ) }}">
+    </head>
+    <body>
+        <header>
+            <div class= "container">
+                <span><img src="static/images/logo.png" width= "50" height="50" /> </span>
+                <h1 class = "logo">STATES OF MATTER</h1>
+                <nav>
+                    <li><a href="{{ url_for("home") }}">Home</a></li>
+                    <li><a href="{{ url_for("gas") }}">Gas</a></li>
+                    <li><a href="{{ url_for("liquid") }}">Liquid</a></li>
+                    <li><a href="{{ url_for("solid") }}">Solid</a></li>
+                    <li><a href="{{ url_for("plasma") }}">Plasma</a></li>
+                </nav>
+            </div>
+        </header>
+        <h1>Gas</h1>
+        <h3>Introduction</h3>
+        <p>A gas is a compressible fluid. Not only will a gas conform to the shape of its container but it will also expand to fill the container.
+
+            In a gas, the molecules have enough kinetic energy so that the effect of 
+            intermolecular forces is small (or zero for an ideal gas), and the typical 
+            distance between neighboring molecules is much greater than the molecular 
+            size. A gas has no definite shape or volume, but occupies the entire 
+            container in which it is confined. A liquid may be converted to a gas by 
+            heating at constant pressure to the boiling point, or else by reducing the 
+            pressure at constant temperature. </p>
+            <img src="static/images/state2.png" width= "300" height="300"/>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for("static" , filename="css/style.css" ) }}">
+    </head>
+    <body>
+        <header>
+            <div class= "container">
+                <span><img src="static/images/logo.png" width= "50" height="50" /> </span>
+                <h1 class = "logo">Home</h1>
+                <nav>
+                    <li><a href="{{ url_for("home") }}">Home</a></li>
+                    <li><a href="{{ url_for("gas") }}">Gas</a></li>
+                    <li><a href="{{ url_for("liquid") }}">Liquid</a></li>
+                    <li><a href="{{ url_for("solid") }}">Solid</a></li>
+                    <li><a href="{{ url_for("plasma") }}">Plasma</a></li>
+                </nav>
+            </div>
+        </header>
+        <h1>WELCOME TO THE STATES OF THE MATTER</h1>
+        <h3>Introduction</h3>
+        <p class = "state">In physics, a state of matter is one of the distinct forms in which matter 
+            can exist. Four states of matter are observable in everyday life: solid, 
+            liquid, gas, and plasma. Many intermediate states are known to exist, such 
+            as liquid crystal, and some states only exist under extreme conditions, 
+            such as Bose–Einstein condensates (in extreme cold), neutron-degenerate 
+            matter (in extreme density), and quark–gluon plasma (at extremely high 
+            energy). For a complete list of all exotic states of matter, see the list 
+            of states of matter.</p>
+            <img src="static/images/state1.png" width= "300" height="300"/>
+
+    </body>
+</html>
